@@ -63,19 +63,17 @@
         <div class="bg-white p-5 h-full">
 
             <!-- Header -->
-            <div class="grid grid-cols-3">
-                <div class=""></div>
+            <div class="">
                 <div class="justify-items-center">
                     <img src="./assets/images/Ahmad Sani Jabarulloh.jpg" alt="" class="w-32 h-32 rounded-full">
-                    <h1 class="text-2xl">
+                    <h1 class="text-lg sm:text-2xl">
                         <?= $ucapan; ?> <span class="font-semibold">Ahmad Sani Jabarulloh</span>
                     </h1>
-                    <p class="text-lg">
+                    <p class="text-sm sm:text-lg">
                         <?= date("l, d F Y") ?> |
                         <span id="jam"><?= date("H:i:s") ?></span> WIB
                     </p>
                 </div>
-                <div class=""></div>
             </div>
 
             <!-- Insert -->
